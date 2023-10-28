@@ -1,0 +1,88 @@
+:root{
+  --cor1: #20accf;
+  --cor2: #35b359;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer{
+  background-color: var(--cor2);
+  padding: 80px;
+}
+.tema{
+  border-radius: 20px;
+  margin: 10px;
+  border-color: var(--cor2);
+}
+
+.user{
+  background-color: var(--cor2);
+  border-radius: 29px;
+}
+.body-clima {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(32, 152, 152);
+  /*height: 100vh;
+  margin: 0;*/
+}
+
+.widget-Clima {
+  margin: 5%;
+}
+
+.input-with-icon {
+  padding-left: 15px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 20px;
+  border-color: var(--cor1);
+  border-radius: 10px;
+  
+}
+
+.Pesquisar{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+
+}
+
+
+nav {
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  margin-top: 40px;
+}
+
+nav > a{
+  color: var(--cor1);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.6s;
+  font-weight: 700px;
+}
+
+nav > a:hover {
+  background-color: var(--cor2);
+  color: white;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
