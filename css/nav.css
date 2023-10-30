@@ -62,9 +62,7 @@ footer{
 .logo{
   width: 200px;
   height: 100px;
-
 }
-
 
 nav {
   margin: 5px;
@@ -87,9 +85,7 @@ nav > a:hover {
   text-decoration: underline;
   text-decoration-color: var(--cor2) ;
   text-decoration-style: wavy;
-  
 }
-
 
 .logo-container{
   display: flex;
@@ -111,6 +107,7 @@ nav > a:hover {
   margin-top: 10px;
   color: black;
 }
+
 a{
   text-decoration: none;
 }
