@@ -14,9 +14,18 @@
     
 }
 .fotoTime > img{
-    border-radius: 20px;
+    border-radius: 100px;
+    border-color: var(--cor3);
+    border-style: outset;
+    border-width: 3px;
+    width: 100px;
+    height: 100px;
 }
-
+.fotoParceiros, .fotoParceiros >img{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
 .fotoTime>p {
     text-align: center;
     font-weight: bold;
@@ -27,6 +36,9 @@
 .texto, h2, h3{
     color: white;
 }
+.texto{
+    margin: 20px;
+}
 .timejunto{
     padding:40px;
 }
@@ -35,7 +47,15 @@
     justify-content: center;
     align-items: center;
 }
-
+.fotoGrupo > img{
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    width: 450px; 
+    height: 300px;
+}
 .quem {
     background-color: var(--cor1);
     padding:40px;
