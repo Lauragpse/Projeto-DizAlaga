@@ -8,7 +8,6 @@ body{
 }
 
 footer{
-  background-color: var(--cor2);
   padding: 80px;
 }
 .tema{
@@ -82,9 +81,8 @@ nav > a{
 
 nav > a:hover {
   color: var(--cor2);
-  text-decoration: underline;
-  text-decoration-color: var(--cor2) ;
-  text-decoration-style: wavy;
+  text-decoration: none;
+  
 }
 
 .logo-container{

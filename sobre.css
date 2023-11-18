@@ -1,0 +1,166 @@
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+
+}
+
+.fotoTime {
+    padding: 10px;
+    margin: 10px;
+    
+}
+.fotoTime > img{
+    border-radius: 20px;
+}
+
+.fotoTime>p {
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.texto, h2, h3{
+    color: white;
+}
+.timejunto{
+    padding:40px;
+}
+.quemSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem {
+    background-color: var(--cor1);
+    padding:40px;
+}
+
+h1{
+    color: var(--cor3);
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 45px;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+    
+
+.parceiros {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.colorParceiros {
+    background-color: var(--cor3);
+    padding:50px;
+}
+
+:root {
+    --cor1: #20accf;
+    --cor2: #35b359;
+    --cor3: rgba(14, 45, 112, 0.87);
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer {
+    background-color: ;
+    padding: 80px;
+}
+
+.tema {
+    border-radius: 20px;
+    margin: 10px;
+    border-color: var(--cor2);
+}
+
+.user {
+    background-color: var(--cor2);
+    border-radius: 29px;
+}
+
+.user:hover {
+    background-color: var(--cor1);
+    border-radius: 29px;
+}
+
+.input-with-icon {
+    padding-left: 15px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    border-color: var(--cor1);
+    border-radius: 10px;
+
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+nav {
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+nav>a {
+    color: var(--cor1);
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+
+nav>a:hover {
+    color: var(--cor2);
+    text-decoration: none;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+footer{
+    padding: 50px;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+  }
+  
+  .instagram > p{
+    margin-left: 2px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  a{
+    text-decoration: none;
+  }
